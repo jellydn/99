@@ -444,6 +444,7 @@ end
 --- @param opts _99.Options?
 function _99.setup(opts)
   opts = opts or {}
+
   _99_state = _99_State.new()
   _99_state.provider_override = opts.provider
   _99_state.completion = opts.completion
